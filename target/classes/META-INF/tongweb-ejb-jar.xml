@@ -1,0 +1,10 @@
+<tongweb-ejb-jar>
+<ejb-deployment ejb-name="QuerySessionBean">
+		<jndi name="querybean" interface="com.tongweb.ejbs.QuerySessionBean"></jndi>
+    <pool max="5"
+		 min="1"
+		 interval="2" 
+		 idle-timeout="1">
+		</pool>
+</ejb-deployment>
+</tongweb-ejb-jar>
